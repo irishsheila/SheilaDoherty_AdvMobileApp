@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565C427E202941AE0011DD3B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565C427D202941AE0011DD3B /* AVFoundation.framework */; };
 		5676902F20252E4B004C71EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676902E20252E4B004C71EB /* AppDelegate.swift */; };
 		5676903120252E4B004C71EB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676903020252E4B004C71EB /* FirstViewController.swift */; };
 		5676903320252E4B004C71EB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676903220252E4B004C71EB /* SecondViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		565C427D202941AE0011DD3B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5676902B20252E4B004C71EB /* Alternative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alternative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5676902E20252E4B004C71EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5676903020252E4B004C71EB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -35,17 +37,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565C427E202941AE0011DD3B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		565C427C202941AE0011DD3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				565C427D202941AE0011DD3B /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5676902220252E4B004C71EB = {
 			isa = PBXGroup;
 			children = (
 				5676902D20252E4B004C71EB /* Alternative */,
 				5676902C20252E4B004C71EB /* Products */,
+				565C427C202941AE0011DD3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
