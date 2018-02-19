@@ -12,6 +12,7 @@ class ViewController: UITableViewController {
     
     var genreList = Movies()
     let kfilename = "data.plist"
+    var searchController: UISearchController!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,6 +53,23 @@ class ViewController: UITableViewController {
         
         let app = UIApplication.shared
         NotificationCenter.default.addObserver(self, selector: #selector(ViewController.applicationWillResignActive(_:)), name: NSNotification.Name.UIApplicationWillResignActive, object: app)
+        
+        //search results
+        let resultsController = SearchResultsController()
+        resultsController.allwords = genreList.genre
+        searchController = UISearchController(searchResultsController: resultsController)
+        
+        //search bar configuration
+        searchController.searchBar.placeholder = "Enter a search term"
+        //searchController.searchBar.sizeToFit()
+        tableView.tableHeaderView=searchController.searchBar
+        searchController.searchResultsUpdater = resultsController
+        
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+        
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        //self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     @objc func applicationWillResignActive(_ notification: NSNotification){

@@ -1,14 +1,14 @@
 //
-//  SearchTableViewController.swift
+//  SearchResultsController.swift
 //  Movies
 //
-//  Created by Sheila Doherty on 2/13/18.
+//  Created by Sheila Doherty on 2/18/18.
 //  Copyright © 2018 Sheila Doherty. All rights reserved.
 //
 
 import UIKit
 
-class SearchTableViewController: UITableViewController, UISearchResultsUpdating {
+class SearchResultsController: UITableViewController, UISearchResultsUpdating {
     
     var allwords = [String]()
     var filteredWords = [String]()
@@ -16,7 +16,6 @@ class SearchTableViewController: UITableViewController, UISearchResultsUpdating 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //register our table cell identifier
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "CellIdentifier")
 
         // Uncomment the following line to preserve selection between presentations
@@ -59,16 +58,24 @@ class SearchTableViewController: UITableViewController, UISearchResultsUpdating 
         // #warning Incomplete implementation, return the number of rows
         return filteredWords.count
     }
-
-
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellIdentifier", for: indexPath)
-
+        
         cell.textLabel?.text = filteredWords[indexPath.row]
-
+        
         return cell
     }
 
+    /*
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+
+        // Configure the cell...
+
+        return cell
+    }
+    */
 
     /*
     // Override to support conditional editing of the table view.

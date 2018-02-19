@@ -13,10 +13,10 @@
 		562E852E20322F84004E831A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562E852D20322F84004E831A /* Assets.xcassets */; };
 		562E853120322F84004E831A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562E852F20322F84004E831A /* LaunchScreen.storyboard */; };
 		562E85392032348E004E831A /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E85382032348E004E831A /* Movies.swift */; };
-		562E853D20324031004E831A /* movies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 562E853C20324031004E831A /* movies.plist */; };
 		562E853F20324263004E831A /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E853E20324263004E831A /* DetailTableViewController.swift */; };
+		5670689D203A7C670065FC6D /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5670689C203A7C670065FC6D /* SearchResultsController.swift */; };
+		5670689F203A827D0065FC6D /* movies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5670689E203A827D0065FC6D /* movies.plist */; };
 		56BF4166203265E5006628C1 /* GenreInfoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BF4165203265E5006628C1 /* GenreInfoTableTableViewController.swift */; };
-		56EBFF872033BA0D00AAFF74 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EBFF862033BA0D00AAFF74 /* SearchTableViewController.swift */; };
 		56FFB6A920325B71009C30DC /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FFB6A820325B71009C30DC /* AddMovieViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,10 +29,10 @@
 		562E853020322F84004E831A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		562E853220322F84004E831A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		562E85382032348E004E831A /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
-		562E853C20324031004E831A /* movies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = movies.plist; path = ../../movies.plist; sourceTree = "<group>"; };
 		562E853E20324263004E831A /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		5670689C203A7C670065FC6D /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
+		5670689E203A827D0065FC6D /* movies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = movies.plist; sourceTree = "<group>"; };
 		56BF4165203265E5006628C1 /* GenreInfoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreInfoTableTableViewController.swift; sourceTree = "<group>"; };
-		56EBFF862033BA0D00AAFF74 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		56FFB6A820325B71009C30DC /* AddMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,13 +70,13 @@
 				562E852820322F84004E831A /* ViewController.swift */,
 				562E85382032348E004E831A /* Movies.swift */,
 				562E852A20322F84004E831A /* Main.storyboard */,
-				56EBFF862033BA0D00AAFF74 /* SearchTableViewController.swift */,
 				56BF4165203265E5006628C1 /* GenreInfoTableTableViewController.swift */,
 				56FFB6A820325B71009C30DC /* AddMovieViewController.swift */,
 				562E853E20324263004E831A /* DetailTableViewController.swift */,
+				5670689C203A7C670065FC6D /* SearchResultsController.swift */,
 				562E852D20322F84004E831A /* Assets.xcassets */,
 				562E852F20322F84004E831A /* LaunchScreen.storyboard */,
-				562E853C20324031004E831A /* movies.plist */,
+				5670689E203A827D0065FC6D /* movies.plist */,
 				562E853220322F84004E831A /* Info.plist */,
 			);
 			path = Movies;
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				562E853120322F84004E831A /* LaunchScreen.storyboard in Resources */,
-				562E853D20324031004E831A /* movies.plist in Resources */,
+				5670689F203A827D0065FC6D /* movies.plist in Resources */,
 				562E852E20322F84004E831A /* Assets.xcassets in Resources */,
 				562E852C20322F84004E831A /* Main.storyboard in Resources */,
 			);
@@ -158,7 +158,7 @@
 				562E853F20324263004E831A /* DetailTableViewController.swift in Sources */,
 				562E85392032348E004E831A /* Movies.swift in Sources */,
 				562E852920322F84004E831A /* ViewController.swift in Sources */,
-				56EBFF872033BA0D00AAFF74 /* SearchTableViewController.swift in Sources */,
+				5670689D203A7C670065FC6D /* SearchResultsController.swift in Sources */,
 				56FFB6A920325B71009C30DC /* AddMovieViewController.swift in Sources */,
 				56BF4166203265E5006628C1 /* GenreInfoTableTableViewController.swift in Sources */,
 				562E852720322F84004E831A /* AppDelegate.swift in Sources */,

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comedy</key>
+	<array>
+		<string>Groundhog Day</string>
+		<string>Monty Python &amp; The Holy Grail</string>
+	</array>
+	<key>Drama</key>
+	<array>
+		<string>Casablanca</string>
+		<string>Schindler&apos;s List</string>
+		<string>Gone With The Wind</string>
+	</array>
+	<key>Science Fiction</key>
+	<array>
+		<string>Star Trek</string>
+		<string>Star Wars</string>
+		<string>Serenity</string>
+	</array>
+	<key>Superhero</key>
+	<array>
+		<string>The Black Panther</string>
+		<string>The Avengers</string>
+		<string>Iron Man</string>
+	</array>
+	<key>Fantasy</key>
+	<array>
+		<string>Harry Potter &amp; the Goblet of Fire</string>
+		<string>The Princess Bride</string>
+		<string>The Fellowship of the Ring</string>
+	</array>
+	<key>Horror</key>
+	<array>
+		<string>It</string>
+		<string>Psycho</string>
+	</array>
+	<key>Romantic Comedy</key>
+	<array>
+		<string>When Harry Met Sally</string>
+		<string>You&apos;ve Got Mail</string>
+	</array>
+	<key>Adventure</key>
+	<array>
+		<string>Raiders of the Lost Ark</string>
+		<string>Pirates of the Caribbean</string>
+		<string>National Treasure</string>
+	</array>
+	<key>Western</key>
+	<array>
+		<string>Tombstone</string>
+		<string>The Magnificent Seven</string>
+	</array>
+</dict>
+</plist>

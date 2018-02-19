@@ -13,9 +13,6 @@ class DetailTableViewController: UITableViewController {
     var movies = [String]()
     var selectedGenre = 0
     var genreListDetail = Movies()
-    var searchController: UISearchController!
-    
-    let kfilename = "data.plist"
     
     @IBAction func unwindSegue (_ segue: UIStoryboardSegue){
         if segue.identifier == "doneSegue"{
@@ -34,50 +31,6 @@ class DetailTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //URL for the data
-        let pathURL:URL?
-        //get path for data file
-        let dirPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-        let docDir = dirPath[0] //documents directory
-        print(docDir)
-        
-        // URL for our plist
-        let dataFileURL = docDir.appendingPathComponent(kfilename)
-        print(dataFileURL)
-        
-        //if the data file exists, use it
-        if FileManager.default.fileExists(atPath: dataFileURL.path){
-            pathURL = dataFileURL
-        }
-        else {
-            // URL for our plist
-            pathURL = Bundle.main.url(forResource: "movies", withExtension: "plist")
-        }
-        //creates a property list decoder object
-        let plistdecoder = PropertyListDecoder()
-        do {
-            let data = try Data(contentsOf: pathURL!)
-            //decodes the property list
-            genreListDetail.genreData = try plistdecoder.decode([String: [String]].self, from: data)
-            genreListDetail.genre = Array(genreListDetail.genreData.keys)
-            let chosenGenre = genreListDetail.genre[selectedGenre]
-            movies = genreListDetail.genreData[chosenGenre]! as [String]
-        } catch {
-            // handle error
-            print(error)
-        }
-        
-        //search results
-        let resultsController = SearchTableViewController() //create an instance of our SearchResultsController class
-        resultsController.allwords = movies //set the allwords property to our words array
-        searchController = UISearchController(searchResultsController: resultsController) //initialize our search controller with the resultsController when it has search results to display
-        
-        //search bar configuration
-        searchController.searchBar.placeholder = "Enter a search term" //place holder text
-        //searchController.searchBar.sizeToFit() //sets appropriate size for the search bar
-        tableView.tableHeaderView=searchController.searchBar //install the search bar as the table header
-        searchController.searchResultsUpdater = resultsController //sets the instance to update search results
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
