@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Derrial Book</string>
+		<key>url</key>
+		<string>http://firefly.wikia.com/wiki/Derrial_Book</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>River Tam</string>
+		<key>url</key>
+		<string>http://firefly.wikia.com/wiki/River_Tam</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Simon Tam</string>
+		<key>url</key>
+		<string>http://firefly.wikia.com/wiki/Simon_Tam</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kaylee Frye</string>
+		<key>url</key>
+		<string>http://firefly.wikia.com/wiki/Kaywinnet_Lee_Frye</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jayne Cobb</string>
+		<key>url</key>
+		<string>http://firefly.wikia.com/wiki/Jayne_Cobb</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Inara Serra</string>
+		<key>url</key>
+		<string>http://firefly.wikia.com/wiki/Inara_Serra</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hoban &quot;Wash&quot; Washburn</string>
+		<key>url</key>
+		<string>http://firefly.wikia.com/wiki/Hoban_Washburne</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Zoe Washburn</string>
+		<key>url</key>
+		<string>http://firefly.wikia.com/wiki/Zoë_Alleyne_Washburne</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Malcolm Reynolds</string>
+		<key>url</key>
+		<string>http://firefly.wikia.com/wiki/Malcolm_Reynolds</string>
+	</dict>
+</array>
+</plist>
