@@ -6,55 +6,55 @@
 		<key>name</key>
 		<string>Derrial Book</string>
 		<key>url</key>
-		<string>http://firefly.wikia.com/wiki/Derrial_Book</string>
+		<string>https://www.planetclaire.tv/quotes/firefly/shepherd-book/</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>River Tam</string>
 		<key>url</key>
-		<string>http://firefly.wikia.com/wiki/River_Tam</string>
+		<string>https://www.planetclaire.tv/quotes/firefly/river-tam/</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Simon Tam</string>
 		<key>url</key>
-		<string>http://firefly.wikia.com/wiki/Simon_Tam</string>
+		<string>https://www.planetclaire.tv/quotes/firefly/simon-tam/</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Kaylee Frye</string>
 		<key>url</key>
-		<string>http://firefly.wikia.com/wiki/Kaywinnet_Lee_Frye</string>
+		<string>https://www.planetclaire.tv/quotes/firefly/kaylee-frye/</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Jayne Cobb</string>
 		<key>url</key>
-		<string>http://firefly.wikia.com/wiki/Jayne_Cobb</string>
+		<string>https://www.planetclaire.tv/quotes/firefly/jayne-cobb/</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Inara Serra</string>
 		<key>url</key>
-		<string>http://firefly.wikia.com/wiki/Inara_Serra</string>
+		<string>https://www.planetclaire.tv/quotes/firefly/inara-serra/</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Hoban &quot;Wash&quot; Washburn</string>
 		<key>url</key>
-		<string>http://firefly.wikia.com/wiki/Hoban_Washburne</string>
+		<string>https://www.planetclaire.tv/quotes/firefly/hoban-wash-washburne/</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Zoe Washburn</string>
 		<key>url</key>
-		<string>http://firefly.wikia.com/wiki/Zoë_Alleyne_Washburne</string>
+		<string>https://www.planetclaire.tv/quotes/firefly/zoe-washburne/</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Malcolm Reynolds</string>
 		<key>url</key>
-		<string>http://firefly.wikia.com/wiki/Malcolm_Reynolds</string>
+		<string>https://www.planetclaire.tv/quotes/firefly/malcolm-reynolds/</string>
 	</dict>
 </array>
 </plist>

@@ -13,6 +13,8 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
+    @IBOutlet weak var webSpinner: UIActivityIndicatorView!
+    
     @IBOutlet weak var webView: WKWebView!
     
     func configureView() {
@@ -36,10 +38,10 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: NSDate? {
+    var detailItem: AnyObject? {
         didSet {
             // Update the view.
-            configureView()
+            self.configureView()
         }
     }
 
@@ -47,6 +49,15 @@ class DetailViewController: UIViewController {
         let myurl = URL(string: urlString)
         let request = URLRequest(url: myurl!)
         webView.load(request)
+    }
+    
+    func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+        webSpinner.startAnimating()
+    }
+    
+    //WKNavigationDelegate method that is called when a web page loads successfully
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        webSpinner.stopAnimating()
     }
 
 }
