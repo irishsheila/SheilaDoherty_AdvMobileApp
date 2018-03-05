@@ -149,8 +149,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="recipename" destination="9Rg-JU-TSa" id="Y9M-76-UGR"/>
-                        <outlet property="recipeurl" destination="9Rg-JU-TSa" id="sKN-aM-qNv"/>
+                        <outlet property="recipename" destination="JnP-jj-L5g" id="W3v-4x-ym6"/>
+                        <outlet property="recipeurl" destination="9Rg-JU-TSa" id="FZ5-aw-BIw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gNm-dK-wdt" userLabel="First Responder" sceneMemberID="firstResponder"/>

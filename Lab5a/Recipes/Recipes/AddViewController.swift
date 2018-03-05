@@ -10,8 +10,10 @@ import UIKit
 
 class AddViewController: UIViewController {
 
-    @IBOutlet weak var recipeurl: UITextField!
     @IBOutlet weak var recipename: UITextField!
+    
+    @IBOutlet weak var recipeurl: UITextField!
+    
     var addedrecipe = String()
     var addedurl = String()
     
