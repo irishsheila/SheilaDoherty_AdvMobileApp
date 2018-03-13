@@ -1,0 +1,6 @@
+framework module Pods_AutoKeeper {
+  umbrella header "Pods-AutoKeeper-umbrella.h"
+
+  export *
+  module * { export * }
+}
