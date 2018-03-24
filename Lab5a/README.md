@@ -1,2 +1,2 @@
-Recipes app using Firebase
+iPhone Recipes app using Firebase
 

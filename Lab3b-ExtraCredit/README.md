@@ -1,1 +1,1 @@
-EXTRA CREDIT: Split View iPad App
+EXTRA CREDIT: iPhone Split View iPad App

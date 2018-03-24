@@ -1,1 +1,1 @@
-Tab Controller with 3 Tabs & Pickers
+iPhone Tab Controller with 3 Tabs & Pickers

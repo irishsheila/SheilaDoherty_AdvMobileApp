@@ -1,1 +1,1 @@
-Collection View Image Viewer App with Mulitple Sections, Header & Footer
+iPhone Collection View Image Viewer App with Multiple Sections, Header & Footer

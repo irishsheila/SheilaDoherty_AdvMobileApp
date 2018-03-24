@@ -1,1 +1,1 @@
-TableView app Detail Disclosure Accessory
+iPhone TableView app Detail Disclosure Accessory

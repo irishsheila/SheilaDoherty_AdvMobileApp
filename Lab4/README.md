@@ -1,1 +1,1 @@
-Game of Throne JSON api app
+iPhone Game of Throne JSON api app
