@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sci-Fi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="star_wars_characters">Star Wars Characters</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_hero_hint">Hero Name</string>
+    <string name="add_dialog_title">Add Hero</string>
+</resources>
