@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Thankful</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="thankful_for">I am thankful for...</string>
+    <string name="what_thankful_for">For what are you thankful today?</string>
+    <string name="color_choice">Color choice: </string>
+    <string name="image_choice">Image choice: </string>
+    <string name="date_placeholder">12.26.18</string>
+    <string name="entry_for">Thankful entry for</string>
+    <string name="done">Done</string>
+    <string name="thankful_thought">Thankful Thought:</string>
+    <string name="thankful_image">Thankful Image</string>
+    <string name="gratitude_quote">Gratitude is the fairest blossom which springs from the soul.</string>
+    <string-array name="colorArray">
+        <item>blue</item>
+        <item>pink</item>
+        <item>orange</item>
+        <item>green</item>
+        <item>teal</item>
+    </string-array>
+    <string-array name="imageArray">
+        <item>bird</item>
+        <item>heart</item>
+        <item>happy</item>
+        <item>flower</item>
+    </string-array>
+</resources>
