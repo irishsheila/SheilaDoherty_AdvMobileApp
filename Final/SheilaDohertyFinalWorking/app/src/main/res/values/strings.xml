@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SheilaDohertyFinal-Working</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_workout_hint">Workout name</string>
+    <string name="add_dialog_title">Add Workout</string>
+</resources>
